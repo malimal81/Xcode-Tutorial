@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					36DAAF671C26C31D001A2A8F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 55Q8M2MM2B;
 					};
 					36DAAF7B1C26C31D001A2A8F = {
 						CreatedOnToolsVersion = 7.2;
@@ -399,9 +400,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Xcode Tutorial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Me.Xcode-Tutorial";
+				PRODUCT_BUNDLE_IDENTIFIER = Me.XcodeTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -410,9 +412,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Xcode Tutorial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Me.Xcode-Tutorial";
+				PRODUCT_BUNDLE_IDENTIFIER = Me.XcodeTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
